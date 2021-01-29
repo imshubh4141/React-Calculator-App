@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whatIdo-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-heading{
+    text-decoration: underline;
+}
+
+/* mobile phones */
+@media only screen and (max-width: 1000px){
+    .section-heading{
+        margin: 2% 7%;
+    }
+    
+    .web-design, .web-app-development{
+        padding: 2%;
+        margin: 0% 16%;
+    }
+    
+    .sub-heading{
+        margin-bottom: 3%;
+    }
+}
+
+/* desktops and tablets */
+@media only screen and (min-width: 1000px){
+    .whatIdo-section{
+        flex-direction: row;
+    }
+
+    .section-heading{
+        margin: 0 5%;
+    }
+
+    .web-design, .web-app-development{
+        padding: 1% 5%;
+    }
+}

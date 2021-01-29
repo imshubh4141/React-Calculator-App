@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width : 1000px){
+    .Mainframe{
+        background-color: #1d1f1f;
+    }
+}
+
+/* desktop and larger */
+@media only screen and (min-width: 1000px){
+    .outer-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Mainframe{
+        background-color: #1d1f1f;
+        border-radius: 44px;
+        width: 90%;
+        max-height: 100%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+}
